@@ -55,3 +55,9 @@ one thing you should always remember:
 it is your own duty to ensure your token safety and profits.
 
 join the governance and make it better.
+
+<footer>
+<a href="https://flamincome.github.io">home</a>
+<a href="https://flamincome.github.io/docs">docs</a>
+<a href="https://flamincome.github.io/logo">logo</a>
+</footer>
