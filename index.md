@@ -1,6 +1,6 @@
 # flamincome
 
-(most professional) farmer on [flamingo](https://flamingo.finance)
+(most professional) farmer on [*flamingo*](https://flamingo.finance)
 
 # notice
 
@@ -8,7 +8,7 @@
 
 # introduction
 
-[flamincome](https://flamincome.github.io) farms on [flamingo](https://flamingo.finance) and earn profits.
+[*flamincome*](https://flamincome.github.io) farms on [*flamingo*](https://flamingo.finance) and earn profits.
 
 ```
 users -------+                        +-> flamingo wrapper
@@ -21,7 +21,7 @@ governances -+                        +-> other productions
 users deposit (or withdraw) tokens to (or from) flamincome vaults and earn profits.
 
 strategist can be a (decentralized) smart contract or a (centralized) man who calls whitelisted actions.
-tokens in vaults will be used to farm on [flamingo](https://flamingo.finance) products and other productions when an action is called.
+tokens in vaults will be used to farm on [*flamingo*](https://flamingo.finance) products and other productions when an action is called.
 
 governances can be a (decentralized) dao smart contract or a (centralized) man.
 governance can manage all the vaults, strategists and actions.
@@ -34,12 +34,15 @@ flamincome is decentralizing itself while ensuring funding security and profitab
 - liquidity
 - liquidation
 - arbitrage
+- governance
+- adjustment
+- derivatives
 
 # governance
 
-NEP-5 token `FLAM` will be the governance token of [flamincome](https://flamincome.github.io).
+NEP-5 token `FLAM` will be the governance token of [*flamincome*](https://flamincome.github.io).
 
-`FLAM` will be gradually released to [flamincome](https://flamincome.github.io) users at begining (follows the paces of [flamingo](https://flamingo.finance)).
+`FLAM` will be gradually released to [*flamincome*](https://flamincome.github.io) users at begining (follows the paces of [*flamingo*](https://flamingo.finance)).
 
 *TODO: GOVERNANCE DETAILS*
 
