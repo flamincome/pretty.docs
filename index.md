@@ -1,12 +1,12 @@
 # flamincome
 
-(most professional) farmer on [*flamingo*](https://flamingo.finance)
+> the most efficient farmer on [*flamingo*](https://flamingo.finance)
 
-# notice
+## notice
 
 **USE AT YOUR OWN RISK!!!**
 
-# introduction
+# Introduction
 
 [*flamincome*](https://flamincome.github.io) farms on [*flamingo*](https://flamingo.finance) and earn profits.
 
@@ -18,17 +18,18 @@ strategists ---> vaults ---> actions ---> flamingo swap
 governances -+                        +-> other productions
 ```
 
-users deposit (or withdraw) tokens to (or from) flamincome vaults and earn profits.
+Users deposit (or withdraw) tokens to (or from) flamincome vaults, where they are allocated to different DeFi protocols/pools with the goal of maximizing their APY.
 
-strategist can be a (decentralized) smart contract or a (centralized) man who calls whitelisted actions.
-tokens in vaults will be used to farm on [*flamingo*](https://flamingo.finance) products and other productions when an action is called.
+This optimized allocation of tokens will be done through an strategist, a party that's heavily restricted in what it can do, as it can only take actions from a whitelisted set that is directly encoded in the contract, which will initially be a chosen operator that will be transitioned into a smart contract.
 
-governances can be a (decentralized) dao smart contract or a (centralized) man.
-governance can manage all the vaults, strategists and actions.
+The strategist will then use the tokens present in the vaults to farm the several [*flamingo*](https://flamingo.finance) protocols (as well as others) in an optimal way.
 
-flamincome is decentralizing itself while ensuring funding security and profitability.
+See [Strategies](/strategies) for a list of all whitelisted actions available to the strategist.
 
-# strategies
+This whole protocol will then be managed in a decentralzied way through a DAO, which will have access to all vaults, and will be able to change the strategist or the actions it is capable of performing.
+
+# Strategies
+The actions that will be available to the strategist initially will be:
 
 - staking
 - liquidity
@@ -38,26 +39,22 @@ flamincome is decentralizing itself while ensuring funding security and profitab
 - adjustment
 - derivatives
 
-# governance
+This set of actions can also be altered through a decentralized governance process.
 
+# Governance
 NEP-5 token `FLAM` will be the governance token of [*flamincome*](https://flamincome.github.io).
 
-`FLAM` will be gradually released to [*flamincome*](https://flamincome.github.io) users at begining (follows the paces of [*flamingo*](https://flamingo.finance)).
+`FLAM` will be gradually released to [*flamincome*](https://flamincome.github.io) following the pace of the flamingo token.
 
 *TODO: GOVERNANCE DETAILS*
 
-# culture
+# Culture
+As a fully community-based project, flamincome will always be open.  
+With no pre-mine, founder shares or VC-allocated tokens, everything will be distributed to the community, which will hold all the power over what to do with the protocol.
 
-as a community based project, flamincome is free and open.
-anything can be proposed here and flamincome welcomes contribution.
+Just remember that it is your own duty to ensure the safety of your tokens and profits, so use at your own risk.
 
-one thing you should always remember:
-
-**USE AT YOUR OWN RISK AND NEVER BLAME ANYONE**
-
-it is your own duty to ensure your token safety and profits.
-
-join the governance and make it better.
+Join the governance and make it better.
 
 <footer>
 <a href="https://flamincome.github.io">home</a>
