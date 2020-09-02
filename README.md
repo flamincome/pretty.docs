@@ -1,3 +1,14 @@
-# doc
+## Setup
+```
+poetry install
+```
 
-flamincome document
+## Development
+```
+poetry run mkdocs serve
+```
+
+## Build
+```
+poetry run mkdocs build
+```
