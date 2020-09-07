@@ -18,7 +18,7 @@ strategists ---> vaults ---> actions ---> flamingo swap
 governances -+                        +-> other productions
 ```
 
-Users deposit (or withdraw) tokens to (or from) [*flamingo*](https://flamingo.finance) vaults, where they are allocated to different DeFi protocols/pools with the goal of maximizing their APY.
+Users deposit (or withdraw) tokens to (or from) [*flamincome*](https://flamincome.github.io) vaults, where they are allocated to different DeFi protocols/pools with the goal of maximizing their APY.
 
 This optimized allocation of tokens will be done through an strategist, a party that's heavily restricted in what it can do, as it can only take actions from a whitelisted set that is directly encoded in the contract, which will initially be a chosen operator that will be transitioned into a smart contract.
 
